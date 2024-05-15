@@ -2,7 +2,7 @@
 
 ### Pre-built Binaries
 
-You can download the latest version of the CLI application from the [Releases](https://github.com/your-username/your-repo-name/releases) page. Choose the appropriate binary for your operating system:
+You can download the latest version of the CLI application from the [Releases](https://github.com/karthikkalarikal/password_generator/releases) page. Choose the appropriate binary for your operating system:
 
 - `password-generator-linux` for Linux
 - `password-generator-mac` for macOS
@@ -12,5 +12,6 @@ You can download the latest version of the CLI application from the [Releases](h
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/karthikkalarikal/password_generator.git
+   go build -o password-generator main.go
+   run ./password-generator
